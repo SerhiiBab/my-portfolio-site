@@ -28,11 +28,3 @@ A personal portfolio website created using HTML5, CSS3, JavaScript, and Tailwind
 1. Clone the repository
 2. Install dependencies using `npm install`
 3. Run the development server using `npm start`
-
-## Author
-
-[Tanpreet Singh Jolly](https://github.com/tanpreetjolly)
-
-## License
-
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
