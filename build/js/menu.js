@@ -95,14 +95,6 @@ const projectList = [
     live: "https://surveyform-tanpreet.netlify.app/",
     desc: "A replica survey form of the freeCodeCamp survey  designed using HTML5 and CSS3.",
   },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    img: "build/img/portfolio-thumbnail.jpg",
-    githubLink: "https://github.com/tanpreetjolly/portfolio/tree/master ",
-    live: "https://portfolio-tanpreet.netlify.app/",
-    desc: "A personal portfolio created using HTML5, CSS3 and JavaScript showcasing my work.",
-  },
 ];
 
 // function to return project-card
