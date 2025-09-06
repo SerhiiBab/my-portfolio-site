@@ -46,55 +46,6 @@ const projectList = [
     live: "https://simple-chat-app-6yeb.onrender.com",
     desc: "A chatapp built with WebSocket API and ws lib. MERN Stack with TailwindCSS. Feat inlcudes realtime msg exchange and user authentication with email verification.",
   },
-  {
-    id: 9,
-    title: "Vetmedman",
-    img: "https://i.imgur.com/aAFZsbY.png",
-    githubLink: "",
-    live: "https://vetmedman.com",
-    desc: "A shopping store I created for a freelance client. GithubRepo not available for this private project",
-   
-   },
-    {
-    id: 3,
-    title: "Landing Page - Freelance",
-    img: "https://i.imgur.com/cAzrTyh.png",
-    githubLink: "",
-    live: "https://genci-io.vercel.app",
-    desc: "A simple static landing page for a startup I worked at that. Github Repo not avaailable as per the company's terms",
-  },
-  {
-    id: 7,
-    title: "Ebazar Online Store",
-    img: "build/img/ebazar.png",
-    githubLink: "https://github.com/tanpreetjolly/eBazaar",
-    live: "https://ebazardeploy.onrender.com",
-    desc: "Simple E-commerce website made in React, Redux, Firebase and Stripe for payment gateway.",
-  },
-  {
-    id: 6,
-    title: "Grocery App",
-    img: "build/img/grocery.png",
-    githubLink: "https://github.com/tanpreetjolly/groceryListApp",
-    live: "https://groceryapp-tanpreet.netlify.app/",
-    desc: "A grocery list app build in React to add or remove tems for grocery shopping",
-  },
-  {
-    id: 1,
-    title: "Tribute Page",
-    img: "build/img/tribute-thumbnail.jpg",
-    githubLink: "https://github.com/tanpreetjolly/fcc-project-tributePage",
-    live: "https://tributepage-tanpreet.netlify.app/",
-    desc: "A tribute page for the freeCodeCamp RWD Certification. Created using HTML5 and CSS3.",
-  },
-  {
-    id: 2,
-    title: "Survey Form",
-    img: "build/img/surveyform-thumbnail.jpg",
-    githubLink: "https://github.com/tanpreetjolly/fcc-project-surveyForm",
-    live: "https://surveyform-tanpreet.netlify.app/",
-    desc: "A replica survey form of the freeCodeCamp survey  designed using HTML5 and CSS3.",
-  },
 ];
 
 // function to return project-card
