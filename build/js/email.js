@@ -1,5 +1,6 @@
 function sendMail() {
   const params = {
+    title: "Contact Form",
     name: document.getElementById("fullName").value,
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
