@@ -12,21 +12,26 @@
     />
 
 <script type="module">
-  import emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+  import * as emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
 
-  // Инициализация с твоим публичным ключом
+  // Инициализация с публичным ключом
   emailjs.init("N9pJ0jP_T7RqU_9yX");
 
-  // Функцию отправки можно поместить сюда или в отдельный файл
-  export function sendEmail(data) {
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", data)
-      .then(response => console.log("SUCCESS!", response.status, response.text))
-      .catch(error => console.log("FAILED...", error));
+  // Функция отправки письма
+  function sendEmail() {
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+      name: "Serhii",
+      email: "sergeiy.babich@gmail.com",
+      message: "dfgdfg",
+      title: "Contact Form"
+    })
+    .then(response => console.log("SUCCESS!", response.status, response.text))
+    .catch(error => console.log("FAILED...", error));
   }
-</script>
 
-<!-- Твой скрипт можно подключить как module или импортировать функцию sendEmail -->
-<script type="module" src="email.js"></script>
+  // Пример вызова
+  // sendEmail();
+</script>
 
     <script defer src="build/js/menu.js"></script>
     <script defer src="build/js/email.js"></script>
