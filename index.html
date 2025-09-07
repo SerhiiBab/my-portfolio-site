@@ -11,11 +11,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-   emailjs.init("N9pJ0jP_T7RqU_9yX");
+<script type="module">
+  import emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+
+  // Инициализация с твоим публичным ключом
+  emailjs.init("N9pJ0jP_T7RqU_9yX");
+
+  // Функцию отправки можно поместить сюда или в отдельный файл
+  export function sendEmail(data) {
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", data)
+      .then(response => console.log("SUCCESS!", response.status, response.text))
+      .catch(error => console.log("FAILED...", error));
+  }
 </script>
-<script src="email.js"></script>
+
+<!-- Твой скрипт можно подключить как module или импортировать функцию sendEmail -->
+<script type="module" src="email.js"></script>
 
     <script defer src="build/js/menu.js"></script>
     <script defer src="build/js/email.js"></script>
