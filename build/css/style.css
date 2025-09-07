@@ -100,7 +100,7 @@ min-height: 80vh;
 }
 
 #projects{
-    min-height: 125vh;
+    min-height: 100vh;
 }
 #about-me:nth-child(2), #tech-stack p {
 font-family: var(--font-about);
@@ -126,7 +126,7 @@ border-color: var(--button-bg-color);
 }
 #stacks :nth-child(n) {
 min-height: 40px;
-max-height: 110px;
+max-height: 150px;
 padding-bottom: 10px;
 min-width: 40px;
 }
