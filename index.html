@@ -11,27 +11,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-<script type="module">
-  import * as emailjs from "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
-
-  // Инициализация с публичным ключом
-  emailjs.init("N9pJ0jP_T7RqU_9yX");
-
-  // Функция отправки письма
-  function sendEmail() {
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
-      name: "Serhii",
-      email: "sergeiy.babich@gmail.com",
-      message: "dfgdfg",
-      title: "Contact Form"
-    })
-    .then(response => console.log("SUCCESS!", response.status, response.text))
-    .catch(error => console.log("FAILED...", error));
-  }
-
-  // Пример вызова
-  // sendEmail();
-</script>
 
     <script defer src="build/js/menu.js"></script>
     <script defer src="build/js/email.js"></script>
