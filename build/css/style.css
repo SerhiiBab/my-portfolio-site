@@ -69,10 +69,19 @@ footer{
 #dropdownMenu li:active{
     color: #8fbaff;
 }
-#hero{
+
+#hero {
 min-height: 80vh;
 font-family: var(--font-hero);
+width: 100%;
 }
+
+
+.header-hero {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 
 #hero-wrap{
 min-width: 65vw;

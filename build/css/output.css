@@ -711,8 +711,13 @@ video {
   width: 75%;
 }
 
+#intro {
+    margin: 0px;
+    padding: 32px;
+}
+
 .w-4\/5 {
-  width: 80%;
+  width: 100%;
 }
 
 .w-40 {
