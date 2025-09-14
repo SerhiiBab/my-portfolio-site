@@ -736,11 +736,11 @@ video {
 }
 
 .min-w-full {
-  min-width: 100%;
+  min-width: 30rem;
 }
 
 .max-w-full {
-  max-width: 100%;
+  max-width: 30rem;
 }
 
 .grow {
@@ -1033,6 +1033,11 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+.hover\:text-red-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-300:hover {
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity));
@@ -1052,6 +1057,7 @@ video {
   .sm\:inline {
     display: inline;
   }
+
 
   .sm\:h-14 {
     height: 3.5rem;
@@ -1110,6 +1116,7 @@ video {
     height: 3.5rem;
   }
 
+
   .md\:w-60 {
     width: 15rem;
   }
@@ -1149,6 +1156,24 @@ video {
     display: flex;
   }
 
+    #hero-wrap {
+    flex-direction: row;
+    max-width: 900px;
+  }
+
+  .w-4\/5, .sm\:w-4\/6 {
+    width: 900px;
+  }
+
+  figure {
+    width: 50%;
+}
+
+.h-full {
+    height: 4rem;
+    margin-left: -10px;
+}
+
   .lg\:hidden {
     display: none;
   }
@@ -1175,4 +1200,22 @@ video {
   .xl\:gap-4 {
     gap: 1rem;
   }
+
+    #hero-wrap {
+    flex-direction: row;
+    max-width: 1440px;
+  }
+
+  .w-4\/5, .sm\:w-4\/6 {
+    width: 1440px;
+  }
+
+  .project-card {
+    width: 30%!important;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
 }

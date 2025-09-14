@@ -61,7 +61,7 @@ function displayAllProjects(projectsList){
               <a href=${item.live} target="_blank"><p class="text-sm lg:text-lg">View Project</p></a>
               <a href="${item.githubLink}" target="_blank"><img src="build/img/footer-github.png" alt="github-link""></a>
             </div>
-            <p class="m-1 w-4/5 text-xs lg:text-base">${item.desc}</p>
+            <p class="m-1 text-xs lg:text-base">${item.desc}</p>
         </div>`
 
     });
