@@ -88,7 +88,7 @@ background-clip:text;
 }
 
 #about-me,  #project-container {
-min-height: 80vh;
+min-height: 0vh;
 }
 
 #tech-stack{
