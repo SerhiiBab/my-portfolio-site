@@ -100,7 +100,7 @@ min-height: 0vh;
 }
 
 #projects{
-    min-height: 100vh;
+    min-height: 0vh;
 }
 #about-me:nth-child(2), #tech-stack p {
 font-family: var(--font-about);
