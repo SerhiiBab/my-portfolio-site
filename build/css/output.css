@@ -845,6 +845,29 @@ video {
   border-radius: 0.5rem;
 }
 
+
+.bg-blue-500 {
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+#btn-de, #btn-en {
+    padding: 5px;
+    border-radius: 15px;
+    margin: 1px;
+}
+
+.lang-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.text-blue-500 {
+  color: rgb(85, 85, 85);
+}
+
 .border-2 {
   border-width: 2px;
 }

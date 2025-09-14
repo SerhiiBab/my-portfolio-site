@@ -176,6 +176,13 @@ font-family: var(--font-hero);
     max-width: 30px;
     aspect-ratio: 1;
 }
+
+.cv-link {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 /* forms */
 /* Set font and background color for form */
 #email-form {

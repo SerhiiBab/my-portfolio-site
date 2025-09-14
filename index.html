@@ -14,6 +14,7 @@
 
     <script defer src="build/js/menu.js"></script>
     <script defer src="build/js/email.js"></script>
+    <script defer src="build/js/main.js"></script>
     <title>Welcome</title>
   </head>
   <body
@@ -23,10 +24,15 @@
       id="socials"
       class="fixed left-0 top-1/3 z-10 hidden flex-col justify-center p-5 lg:flex"
     >
-     <div class="mt-4 flex flex-col gap-2">
-        <button onclick="setLang('en')" class="px-3 py-1 rounded bg-blue-500 text-white">EN</button>
-        <button onclick="setLang('de')" class="px-3 py-1 rounded bg-green-500 text-white">DE</button>
-     </div>
+
+ <div class="mt-4 flex gap-2 lang-btn">
+            <button id="btn-en" onclick="setLang('en')" class="px-3 py-1 rounded border border-blue-500 bg-white text-blue-500 hover:bg-blue-50 transition-colors">EN</button>
+            <button id="btn-de" onclick="setLang('de')" class="px-3 py-1 rounded border border-blue-500 bg-blue-500 text-white shadow-md">DE</button>
+        </div>
+
+
+
+
       <div id="socials-container" class="flex flex-col gap-5">
         <a
           href="https://linkedin.com/in/serhii-babych-24251125b"
@@ -76,7 +82,7 @@
           </a>
           <a
             href="#about-me"
-            class="transition-all duration-300 hover:scale-105 hover:text-blue-300 hover:ease-in-out"
+            class="transition-all duration-300 hover:scale-105 hover:text-blue-300 hover:ease-in-out "
             >About
           </a>
           <a
@@ -203,9 +209,12 @@
         </section>
     
         <section class="mb-8">
-            <div class="mb-4">
-                <a href="#"><h3 class="flex items-center gap-2 text-xl font-bold hover:text-red-600"><img src="/build/img/PDF_image.png" alt="Download PDF" width="30">CV PDF</h3></a>
+
+            <div class="mb-4 cv-link">
+                <img src="/build/img/PDF_image.png" alt="Download PDF" width="30">
+                <a href="#"><h3 id="lang-text" class="flex items-center gap-2 text-xl font-bold hover:text-red-600">CV PDF</h3></a>
             </div>
+            
         </section>
     
         </div>
