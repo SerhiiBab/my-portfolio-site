@@ -61,7 +61,43 @@
         const translations14 = {
             en: "Designed and developed responsive websites using HTML, CSS, JavaScript, React, and Tailwind CSS.",
             de: "Websites entworfen (PSD, Figma) und responsive entwickelt unter Verwendung von HTML, CSS, JavaScript und weiteren Technologien."
-        };
+            };
+        const translations15 = {
+            en: "Built and customized websites on various CMS platforms such as WordPress, TYPO3, Joomla, and others.",
+            de: "Websites auf verschiedenen CMS-Plattformen wie WordPress, TYPO3, Joomla und anderen erstellt und angepasst."
+            };
+        const translations16 = {
+            en: "Implemented SEO optimization, accessibility standards, and performance improvements to ensure high-quality user experiences.",
+            de: "SEO-Optimierung, Barrierefreiheitsstandards und Leistungsverbesserungen implementiert, um hochwertige Nutzererfahrungen zu gewährleisten."
+            };
+        const translations17 = {
+            en: "Worked on and delivered scalable, maintainable, and modern digital solutions aligned with industry best practices.",
+            de: "An skalierbaren, wartbaren und modernen digitalen Lösungen gearbeitet und diese gemäß den besten Branchenpraktiken umgesetzt."
+            };
+        const translations18 = {
+            en: "- ECO-Retail  - Frontend Developer (Dec 2019 – Juni 2022)",
+            de: "- Frontend Entwickler - ECO-Retail (Dec 2019 – Juni 2022"
+            };
+        const translations19 = {
+            en: "Design and development of responsive web interfaces for desktop and mobile devices (HTML, CSS, JavaScript, React, Tailwind CSS)",
+            de: "Gestaltung und Entwicklung von responsiven Web-Oberflächen für Desktop- und Mobilgeräte (HTML, CSS, JavaScript, React, Tailwind CSS)"
+            };
+        const translations20 = {
+            en: "Implementation of user-friendly interfaces for product catalogs, special offers, and online shopping.",
+            de: "Umsetzung benutzerfreundlicher Interfaces für Produktkataloge, Sonderangebote und OnlineShopping."
+            };
+        const translations21 = {
+            en: "Integration of interactive elements as well as optimization of page performance and loading times for a better user experience.",
+            de: "Integration interaktiver Elemente sowie Optimierung von Seitenleistung und Ladezeiten für ein besseres Nutzererlebnis."
+            };
+        const translations22 = {
+            en: "Collaboration with marketing and content teams to implement visual concepts.",
+            de: "Zusammenarbeit mit Marketing- und Content-Teams zur Umsetzung visueller Konzepte."
+            };
+        const translations23 = {
+            en: "Integration of payment systems and other external services.",
+            de: "Anbindung von Zahlungssystemen und weiteren externen Services."
+            };
 
 
         
@@ -84,6 +120,15 @@
             document.getElementById("lang-text12").textContent = translations12[lang];
             document.getElementById("lang-text13").textContent = translations13[lang];
             document.getElementById("lang-text14").textContent = translations14[lang];
+            document.getElementById("lang-text15").textContent = translations15[lang];
+            document.getElementById("lang-text16").textContent = translations16[lang];
+            document.getElementById("lang-text17").textContent = translations17[lang];
+            document.getElementById("lang-text18").textContent = translations18[lang];
+            document.getElementById("lang-text19").textContent = translations19[lang];
+            document.getElementById("lang-text20").textContent = translations20[lang];
+            document.getElementById("lang-text21").textContent = translations21[lang];
+            document.getElementById("lang-text22").textContent = translations22[lang];
+            document.getElementById("lang-text23").textContent = translations23[lang];
 
             document.getElementById("btn-en").className = 
                 "px-3 py-1 rounded border border-blue-500  text-blue-500 hover:bg-blue-50 transition-colors";
