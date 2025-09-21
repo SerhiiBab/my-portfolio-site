@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 aside{
-    min-height: 30vh;
+    min-height: 20vh;
     max-width: 8vw;
     background : #65656b1b;
     border-top-right-radius: 10px;
