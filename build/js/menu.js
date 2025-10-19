@@ -32,18 +32,18 @@ const projectList = [
   },
   {
     id: 11,
-    title: "Creativerse - Blogs with AI",
-    img: "https://i.imgur.com/8dsAJ6e.png",
-    githubLink: "https://github.com/tanpreetjolly/Creativerse-Blogs",
-    live: "https://blogminds-3hu1.onrender.com/",
-    desc: "A full fledged Blogging platform powered with Generative AI",
+    title: "Kanban Todo App + Unsplash-API",
+    img: "build/img/kanban-to-do.jpg",
+    githubLink: "https://github.com/SerhiiBab/kanban-todo.git",
+    live: "https://kanban-todo-nu.vercel.app/",
+    desc: "Ein interaktives Kanban-Todo-App-Projekt mit Drag-&-Drop-Funktion und automatischer Bildanzeige über die Unsplash-API.",
   },
   {
     id: 8,
-    title: "Swift Chat App",
-    img: "build/img/chatapp.png",
+    title: "Maus JS Spiel",
+    img: "build/img/maus-spiel.jpg",
     githubLink: "https://github.com/tanpreetjolly/swift-chat-app",
-    live: "https://simple-chat-app-6yeb.onrender.com",
+    live: "https://maus-spiel.vercel.app/",
     desc: "A chatapp built with WebSocket API and ws lib. MERN Stack with TailwindCSS. Feat inlcudes realtime msg exchange and user authentication with email verification.",
   },
 ];
@@ -57,11 +57,12 @@ function displayAllProjects(projectsList){
         <div class="project-card" class="text-gray-300">
             <img src= ${item.img} alt=${item.title}>
             <h2 class="text-xl lg:text-2xl  font-bold mx-3 pt-1 underline underline-offset-8">${item.title}</h2>
+            <p class="m-1 text-xs lg:text-base">${item.desc}</p>
             <div class="flex justify-between w-full px-4  projectLinkContainer items-center" >
-              <a href=${item.live} target="_blank"><p class="text-sm lg:text-lg">View Project</p></a>
+              <a href=${item.live} target="_blank"><p class="text-sm lg:text-lg">Projekt ansehen -></p></a>
               <a href="${item.githubLink}" target="_blank"><img src="build/img/footer-github.png" alt="github-link""></a>
             </div>
-            <p class="m-1 text-xs lg:text-base">${item.desc}</p>
+            
         </div>`
 
     });
