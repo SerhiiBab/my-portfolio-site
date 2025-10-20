@@ -24,27 +24,27 @@ const projectList = [
 
   {
     id: 5,
-    title: "Medware - Healthcare Companion",
-    img: "build/img/medware.png",
-    githubLink: "https://github.com/tanpreetjolly/Medware",
-    live: "https://medware.onrender.com",
-    desc: "A Healthcare Website consisting of a Disease Predictor made in React, Django, Tailwind and Machine Learning.",
+    title: "Maut AG",
+    img: "build/img/maut.jpg",
+    githubLink: "#",
+    live: "https://maut-ag.com/",
+    desc: "Entwicklung des Designs und der Struktur der Website. Layout – WordPress Elementor, CSS, JavaScript.",
   },
   {
     id: 11,
-    title: "Kanban Todo App + Unsplash-API",
-    img: "build/img/kanban-to-do.jpg",
-    githubLink: "https://github.com/SerhiiBab/kanban-todo.git",
-    live: "https://kanban-todo-nu.vercel.app/",
-    desc: "Ein interaktives Kanban-Todo-App-Projekt mit Drag-&-Drop-Funktion und automatischer Bildanzeige über die Unsplash-API.",
+    title: "TechBob - News",
+    img: "build/img/techbob.jpg",
+    githubLink: "https://github.com/SerhiiBab/techbob",
+    live: "https://www.techbob.de/",
+    desc: "Entwicklung einer modernen Headless-CMS mit Next.js, TypeScript und Tailwind CSS für hohe Performance und Flexibilität.",
   },
   {
     id: 8,
     title: "Maus JS Spiel",
     img: "build/img/maus-spiel.jpg",
-    githubLink: "https://github.com/tanpreetjolly/swift-chat-app",
+    githubLink: "https://github.com/SerhiiBab/maus-spiel",
     live: "https://maus-spiel.vercel.app/",
-    desc: "A chatapp built with WebSocket API and ws lib. MERN Stack with TailwindCSS. Feat inlcudes realtime msg exchange and user authentication with email verification.",
+    desc: "Dieses Web-Spiel wurde vollständig mit Vanilla JavaScript, HTML und CSS entwickelt. Es bietet eine interaktive Spielerfahrung direkt im Browser, ohne externe Bibliotheken oder Frameworks.",
   },
 ];
 
@@ -55,8 +55,8 @@ function displayAllProjects(projectsList){
     let displayProjects = projectsList.map(function(item){
         return `
         <div class="project-card" class="text-gray-300">
-            <img src= ${item.img} alt=${item.title}>
-            <h2 class="text-xl lg:text-2xl  font-bold mx-3 pt-1 underline underline-offset-8">${item.title}</h2>
+            <a href=${item.live} target="_blank"><img src= ${item.img} alt=${item.title}></a>
+            <a href=${item.live} target="_blank"><h2 class="text-xl lg:text-2xl  font-bold mx-3 pt-1 underline underline-offset-8">${item.title}</h2></a>
             <p class="m-1 text-xs lg:text-base">${item.desc}</p>
             <div class="flex justify-between w-full px-4  projectLinkContainer items-center" >
               <a href=${item.live} target="_blank"><p class="text-sm lg:text-lg">Projekt ansehen -></p></a>
